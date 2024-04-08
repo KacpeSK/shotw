@@ -16,9 +16,4 @@ export class NavComponent {
     $event.preventDefault();
     this.modalService.toggleModal('auth-modal');
   }
-
-  openTestModal($event: Event): void {
-    $event.preventDefault();
-    this.modalService.toggleModal('test-modal');
-  }
 }
